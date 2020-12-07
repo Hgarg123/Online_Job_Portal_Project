@@ -1,0 +1,80 @@
+
+body{
+    background: url(../Images/bg_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.navbar a:hover{
+    background-color: yellowgreen;
+    color: white;
+    font-size: large;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    height: 100%;
+}
+.search{
+    width: 30%;
+    margin-left: 3rem;
+}
+.search button{
+    font-size: 30px;
+    outline: none;
+    /* border: none; */ 
+    border-radius: 5px;
+}
+.search button:hover{
+    background-color: dodgerblue;
+    outline: none;
+    border: none;
+}
+.search button a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.job-input{
+    margin-bottom: 5px;
+    padding: 10px;
+    position: relative;    
+}
+input,select{
+    /* display: block; */
+    width: 25%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #f0f0f0;
+    outline: none;
+}
+.job-input i{
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 18rem;
+}
+.job-input a{
+    outline: none;
+    border: none;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+}
+.job-input a:hover{
+    background-color: yellowgreen;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+

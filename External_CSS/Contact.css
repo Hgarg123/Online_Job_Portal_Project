@@ -1,0 +1,49 @@
+body{
+    background-color: #f8f9fa;
+}
+h3{
+    font-size: 35px;
+    padding: 20px;
+}
+h5{
+    color: gray;
+    padding: 20px;
+}
+.imgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 500px;
+    width: 700px;
+}
+input,textarea{
+    display: block;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message input,textarea{
+    width: 600px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid black ;
+    outline: none;
+}
+.message a{
+    color: white;
+    background-color: yellowgreen;
+    font-size: 30px;
+    outline: none;
+    width: 20%;
+    text-decoration: none;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}

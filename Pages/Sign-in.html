@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../External_CSS/Fonts.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: url(../Images/bg_1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: 'IBM Plex Sans', sans-serif;
+        }
+
+        .container1 {
+            margin-left: 7rem;
+            width: 40%;
+            background-color: #f8f9fa;
+            margin-top: 3rem;
+            height: 400px;
+            padding: 15px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 25px;
+        }
+
+        label,
+        input,
+        a {
+            display: block;
+        }
+
+        label,
+        input {
+            color: black;
+            font-size: 20px;
+            margin-left: 25px;
+        }
+
+        input {
+            padding: 10px;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+            border-bottom: 2px solid black;
+        }
+
+        input[type='text'] {
+            margin-bottom: 20px;
+        }
+
+        .link1 {
+            /* display: flex; */
+            color: black;
+            /* outline: none; */
+            /* text-transform: none; */
+            /* text-decoration: none; */
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .link1:hover, .link2:hover{
+            color: black;
+            outline: none;
+            text-decoration: none;
+            font-size: large;
+        }
+        .link2 {
+            display: block;
+            color: white;
+            background-color: yellowgreen;
+            font-size: 15px;
+            border-radius: 15px;
+            width: 35%;
+            text-align: center;
+            margin-left: 8.5rem;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <h1>Sign-In</h1>
+
+        <label for="username">Username</label>
+        <input type="text" name="text" id="text" placeholder="Enter Your Username">
+
+        <label for="pwd">Password</label>
+        <input type="password" name="pwd" id="password" placeholder="Enter Password">
+
+        <a href="../Pages/ForgetPassword.html" class="link1" style="text-align: left;;">Forgot Passowrd?</a>
+
+        <a href="../Pages/Sign-up.html" class="link1"
+            style="text-align: right; margin-top: -20px; margin-right: 10px;">New User?</a>
+        <br>
+        <a href="#" class="link2">Submit</a>
+    </div>
+
+</body>
+
+</html>
